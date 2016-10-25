@@ -3,7 +3,6 @@
 
 import string, random
 
-
 class LengthError(ValueError):
 	def __init__(self,msgs):
 		self.msgs = msgs
