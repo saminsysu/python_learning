@@ -3,9 +3,6 @@
 
 from PIL import Image, ImageDraw, ImageFont
 
-
-
-
 def write_num(img,num):
 	w,h=img.size
 	draw = ImageDraw.Draw(img)
